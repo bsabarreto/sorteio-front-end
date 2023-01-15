@@ -1,30 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+O projeto implementado foi feito com React JS com Next JS, Styles Components, AXIOS.
+ 
+![image](https://user-images.githubusercontent.com/122547975/212551331-406eeb35-7f75-41a2-b435-6be7af7cc310.png)
 
-## Getting Started
+Sobre arquitetura do projeto de frontend:
 
-First, run the development server:
+Foi criado uma estrutura que utilizo para separarmos os arquivos, deixando mais fácil dar manutenção e implementar novas melhorias.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Estrutura de pastas:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+     Componentes: Implementados os componentes que foram usados em outras páginas do sistema.
+     Context: Para o controle de estado foi usado o Context API. Aqui fizemos as requisições para a service e passamos para o front os dados e atualizações.
+     Pages: Como foi usado o Next.JS usamos a PAGE para redirecionas as pastas de forma mais fácil, assim o Next.JS trabalha no redirecionamente de páginas.
+     Service: Faz a chamada para o Backend.
+     Style: Usado style-components para estilizar alguns itens das páginas.
+     
+     
+     
+     
+     
+     
+********** OBSERVAÇÃO: URL DA API - CASO RODE EM OUTRA PORTA, TEM QUE MUDAR A **** baseUrl  NO SEGUINTE CAMINHO:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+*********** sorteio-frontend\services\api.js ****************
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+![image](https://user-images.githubusercontent.com/122547975/212563692-c4c98d4d-8bcc-400f-8588-a73b3110b3cd.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Front-end (Layout) 
+
+Quando rodamos o front a primeira tela mostra os participantes do sorteio.
+
+![image](https://user-images.githubusercontent.com/122547975/212563571-fddb5ec8-d888-4aee-8434-f0a10c50ced2.png)
+
+
+Ao clicar em "Realizar Sorteio" temos a segunda tela:
+
+
+
+![image](https://user-images.githubusercontent.com/122547975/212563590-2331bb45-ae03-42d7-99c4-ea96dce14646.png)
+
+
+
+Podemos clicar em "Voltar" para realizar o sorteio novmente.
