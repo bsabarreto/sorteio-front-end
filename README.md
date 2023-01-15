@@ -3,10 +3,20 @@ O projeto implementado foi feito com React JS com Next JS, Styles Components, AX
 Para executar o front end, antes, temos que instalar as dependências.
 
   **************** Entrar na raiz do projeto e executar  NPM INSTALL --FORCE ***************************
+  
+  ![image](https://user-images.githubusercontent.com/122547975/212564986-e5e2534d-87f7-45e2-b4ad-45d0a146100d.png)
 
+
+Assim, instalamos os pacotes!
+
+
+Depois temos que inicializar o front **************** NPM RUN DEV *****************************
  
 
- 
+ ![image](https://user-images.githubusercontent.com/122547975/212565139-c6fcb47d-18ab-42d0-8416-dfc03b93aab6.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/122547975/212551331-406eeb35-7f75-41a2-b435-6be7af7cc310.png)
 
 Sobre arquitetura do projeto de frontend:
