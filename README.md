@@ -1,4 +1,11 @@
 O projeto implementado foi feito com React JS com Next JS, Styles Components, AXIOS.
+
+Para executar o front end, antes, temos que instalar as dependências.
+
+  **************** Entrar na raiz do projeto e executar  NPM INSTALL --FORCE ***************************
+
+ 
+
  
 ![image](https://user-images.githubusercontent.com/122547975/212551331-406eeb35-7f75-41a2-b435-6be7af7cc310.png)
 
