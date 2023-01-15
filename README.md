@@ -15,11 +15,11 @@ Depois temos que inicializar o front **************** NPM RUN DEV **************
 
  ![image](https://user-images.githubusercontent.com/122547975/212565139-c6fcb47d-18ab-42d0-8416-dfc03b93aab6.png)
 
+Sobre arquitetura do projeto de frontend:
 
 
 ![image](https://user-images.githubusercontent.com/122547975/212551331-406eeb35-7f75-41a2-b435-6be7af7cc310.png)
 
-Sobre arquitetura do projeto de frontend:
 
 Foi criado uma estrutura que utilizo para separarmos os arquivos, deixando mais fácil dar manutenção e implementar novas melhorias.
 
